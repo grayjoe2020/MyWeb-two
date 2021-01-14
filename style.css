@@ -1,0 +1,40 @@
+body {
+    
+    margin:0;
+    padding:0;
+    background: #006266;
+}
+
+
+.slideshow {
+    
+    width: 600px;
+    height:250px;
+    background: url(images/img1.jpg);
+    margin: 100px auto;
+    animation: slide 10s infinite;
+}
+
+
+@keyframes slide {
+    
+    25% {
+        
+        background: url(images/img2.jpg);
+    }
+    
+    50% {
+        
+        background: url(images/img3.jpg);
+    }
+    75% {
+        
+        background: url(images/img4.jpg);
+    }
+    100% {
+        
+        background: url(images/img5.jpg);
+    }
+    
+    
+}
